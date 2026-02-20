@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing with valid pasword but empty username</description>
+   <name>LG_006</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72573c95-0a88-4c8c-804c-59cb2246c7ec</testCaseGuid>
+</TestCaseEntity>

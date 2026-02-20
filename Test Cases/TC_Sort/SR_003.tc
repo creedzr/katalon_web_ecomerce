@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sort product  form price low to price high</description>
+   <name>SR_003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14cd89f8-5171-4970-b4c7-7640bb21c236</testCaseGuid>
+</TestCaseEntity>

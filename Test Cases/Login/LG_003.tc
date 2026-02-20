@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing with  valid username but invalid password</description>
+   <name>LG_003</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>690aff96-c816-46ed-a42b-8f2e10526669</testCaseGuid>
+</TestCaseEntity>

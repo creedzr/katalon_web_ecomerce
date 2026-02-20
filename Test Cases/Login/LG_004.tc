@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing with invalid username and invalid password</description>
+   <name>LG_004</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e46cf998-f6f8-4e46-a164-80c75343110c</testCaseGuid>
+</TestCaseEntity>

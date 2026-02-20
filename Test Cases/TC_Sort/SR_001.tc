@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sort product from A to Z</description>
+   <name>SR_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c2901521-fa85-46b1-aacb-248135b6bf13</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sort product from high to low</description>
+   <name>SR_004</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76ece148-7777-48e8-9da7-70f0bb718821</testCaseGuid>
+</TestCaseEntity>
