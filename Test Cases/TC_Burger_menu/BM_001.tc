@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visibility burger icon on every page</description>
+   <name>BM_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e42ddec0-3566-4b57-99ba-41945413959d</testCaseGuid>
+</TestCaseEntity>
