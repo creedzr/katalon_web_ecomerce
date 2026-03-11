@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // login ke website saucedemo
-WebUI.callTestCase(findTestCase('Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //sort produk dari z ke a
 WebUI.selectOptionByValue(findTestObject('sort_menu/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)'), 

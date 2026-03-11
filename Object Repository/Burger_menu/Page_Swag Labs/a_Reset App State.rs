@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4b179d38-3874-41da-b53d-003bbccd72f3</webElementGuid>
+      <webElementGuid>226525a3-dc4c-4229-883a-e7c7147147a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reset_sidebar_link</value>
-      <webElementGuid>b888aeba-7cb8-4e45-9bca-ee70a19ffa5d</webElementGuid>
+      <webElementGuid>09f5ae95-e1cd-4ed3-936b-69b359d4e1fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bm-item menu-item</value>
-      <webElementGuid>22ae27fd-1810-42f6-ab69-e23f0ff73457</webElementGuid>
+      <webElementGuid>1bfaee4e-42e4-4d1d-9c4d-6520cd7a7103</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e1bf66ba-e52c-4e3d-b8d4-9874665bdcea</webElementGuid>
+      <webElementGuid>ced56e52-4a72-4715-b45e-f0cd4f2e9ea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>reset-sidebar-link</value>
-      <webElementGuid>abed7840-ebca-41e8-9990-46d9542b2d2c</webElementGuid>
+      <webElementGuid>4c632957-050c-47b5-b451-9ad1124e535e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reset App State</value>
-      <webElementGuid>7e030019-e689-4dcb-8b17-103aa5da1041</webElementGuid>
+      <webElementGuid>4b9d2246-009a-49b6-809d-f69f43ebad51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reset_sidebar_link&quot;)</value>
-      <webElementGuid>07e96650-7b17-44d8-bd7e-e81642af7d77</webElementGuid>
+      <webElementGuid>cd42cfc1-e0e0-4541-b546-57319680fe79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='reset_sidebar_link']</value>
-      <webElementGuid>fbb5a6c8-f0fe-4f7c-a583-7b1dcf8e75e8</webElementGuid>
+      <webElementGuid>3e22c809-9d21-41ce-b072-9dc573020f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu_button_container']/div/div[2]/div/nav/a[4]</value>
-      <webElementGuid>6e89a5f1-a8d9-4e46-90b1-25e340ab0592</webElementGuid>
+      <webElementGuid>5479a842-00a2-41bc-9d4e-223f79c3b7a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Reset App State')]</value>
-      <webElementGuid>28d7e130-661d-44f9-aadd-30f3e16d4eab</webElementGuid>
+      <webElementGuid>6b6e826d-613a-42a0-8119-313472021370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[2]</value>
-      <webElementGuid>519ebb42-7ead-42ad-995f-b67fbcb54b76</webElementGuid>
+      <webElementGuid>5cac7cc4-5cd8-44d3-828a-99cb49b46c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Menu'])[1]/following::a[4]</value>
-      <webElementGuid>83e9ad5a-b72a-4954-8b94-61a4ff4a8006</webElementGuid>
+      <webElementGuid>788d3ba9-701c-47b2-a7ea-3471b4217031</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/preceding::a[1]</value>
-      <webElementGuid>81b3fe7e-19ec-4cd5-a220-8bd953a1e31a</webElementGuid>
+      <webElementGuid>20b5fa6f-f2b1-4c53-936b-fecb833f7351</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/preceding::a[1]</value>
-      <webElementGuid>fbaff2d3-73d0-4787-b673-23eec31ae5ce</webElementGuid>
+      <webElementGuid>731e5177-a7ff-4921-b186-7dac1fcce426</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reset App State']/parent::*</value>
-      <webElementGuid>5da7efea-cab7-406e-9ec0-37015cc2a916</webElementGuid>
+      <webElementGuid>34272a1b-7632-47d6-aac1-e19dbf9ecc4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
-      <webElementGuid>02d83b25-d37d-40f9-a7a7-80f7d4346126</webElementGuid>
+      <webElementGuid>061dec2e-f8d9-4f4a-aa5a-d7358362a1fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>be708230-4cdc-4555-8e33-6ea3197db8a2</webElementGuid>
+      <webElementGuid>d9a3fa0c-9a93-43a7-8d0d-9017bb522e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'reset_sidebar_link' and @href = '#' and (text() = 'Reset App State' or . = 'Reset App State')]</value>
-      <webElementGuid>d54b903d-8ddf-4da3-bf53-173a2e059000</webElementGuid>
+      <webElementGuid>11e87b6f-2784-4b14-9575-1465da39d794</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

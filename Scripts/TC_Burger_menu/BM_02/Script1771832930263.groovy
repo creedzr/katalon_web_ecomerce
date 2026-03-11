@@ -17,15 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//login berhasil
+WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+// verifikasi icon burger menu
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
 
-WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), 'standard_user')
+WebUI.click(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
 
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_login-button'))
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_All Items'))
 
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface_ Password is required'))
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_About'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_Logout'))
+
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_Reset App State'))
 

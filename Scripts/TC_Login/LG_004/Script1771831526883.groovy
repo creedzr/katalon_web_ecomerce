@@ -18,18 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
+// navigasi ke web
 WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), 'kreed')
-
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_Password'))
-
-WebUI.setEncryptedText(findTestObject('Page_Login/Page_Swag Labs/input_Password'), 'qcu24s4901FyWDTwXGr6XA==')
-
+//input username
+WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), 'kree')
+//input password
+WebUI.setEncryptedText(findTestObject('Page_Login/Page_Swag Labs/input_Password'), 'U1PrZLgw7I0hpoUeOD2hPg==')
+//klik login button
 WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_login-button'))
-
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface_ Username and password do not ma'))
-
+// pesan peringatan
+WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface Username and password do not match any user in this service'))
+//tutup browser
 WebUI.closeBrowser()
 

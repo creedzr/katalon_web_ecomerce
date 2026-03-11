@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Close burger Menu Via &quot;X&quot;</description>
+   <name>BM_03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a4abb2a-11a8-40f5-a0ff-fba4581b8def</testCaseGuid>
+</TestCaseEntity>

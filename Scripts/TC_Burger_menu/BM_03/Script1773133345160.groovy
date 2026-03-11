@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
 
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
 
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface_ Username is required'))
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_All Items'))
+
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_About'))
+
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_Logout'))
+
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/a_Reset App State'))
+
+WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/Page_Swag Labs/button_Close Menu'))
+
+WebUI.click(findTestObject('Burger_menu/Page_Swag Labs/Page_Swag Labs/button_Close Menu'))
 
 WebUI.closeBrowser()
 

@@ -17,14 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// login ke website saucedemo
-WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//sort produk dari a ke z
-WebUI.selectOptionByValue(findTestObject('sort_menu/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)'), 
-    'az', false)
-
-WebUI.verifyElementText(findTestObject('sort_menu/Page_Swag Labs/div_Sauce Labs Backpack'), 'Sauce Labs Backpack')
-
+WebUI.openBrowser('')
+// navigasi ke web
+WebUI.navigateToUrl('https://www.saucedemo.com/')
+//kosongkan username
+WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), '')
+//input password
+WebUI.setEncryptedText(findTestObject('Page_Login/Page_Swag Labs/input_Password'), 'qcu24s4901FyWDTwXGr6XA==')
+//klik button login
+WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_login-button'))
+//pessan peringatan username di butuhkan
+WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface Username is required'))
+//tutup browser
 WebUI.closeBrowser()
 

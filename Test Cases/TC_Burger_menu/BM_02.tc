@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open Burger Menu</description>
+   <name>BM_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93140807-0464-4619-9079-1075ff518c66</testCaseGuid>
+</TestCaseEntity>

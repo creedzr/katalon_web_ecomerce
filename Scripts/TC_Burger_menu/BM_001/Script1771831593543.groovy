@@ -17,15 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//login berhasil
 WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
-
+// verifikasi icon burger menu
 WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
-
+// buka cart
 WebUI.click(findTestObject('Burger_menu/Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
-
+// verifikasi icon burger menu
 WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
-
+// buka check out
 WebUI.click(findTestObject('Burger_menu/Page_Swag Labs/button_Checkout'))
-
+// verifikasi icon burger menu
 WebUI.verifyElementVisible(findTestObject('Burger_menu/Page_Swag Labs/button_Open Menu'))
+
+WebUI.closeBrowser()
 

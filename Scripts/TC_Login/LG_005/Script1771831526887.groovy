@@ -18,18 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
+// navigasi ke web
 WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), '')
-
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_Password'))
-
-WebUI.setEncryptedText(findTestObject('Page_Login/Page_Swag Labs/input_Password'), 'qcu24s4901FyWDTwXGr6XA==')
-
+//input username
+WebUI.setText(findTestObject('Page_Login/Page_Swag Labs/input_Username'), 'standard_user')
+//klik button login
 WebUI.click(findTestObject('Page_Login/Page_Swag Labs/input_login-button'))
-
-WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface Username is required'))
-
+//pesan peringatan password kosong
+WebUI.click(findTestObject('Page_Login/Page_Swag Labs/h3_Epic sadface_ Password is required'))
+//tutup browser
 WebUI.closeBrowser()
 
