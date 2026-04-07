@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensuring the user can add 2 items&#xd;
+ to the cart and that the cart displays &#xd;
+the correct quantity and item details.</description>
+   <name>CK_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8002ee53-7914-4718-9629-aafd81c16f82</testCaseGuid>
+</TestCaseEntity>

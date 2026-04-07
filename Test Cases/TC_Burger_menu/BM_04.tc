@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to all item</description>
+   <name>BM_04</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e97786f-80b4-4fa5-a708-945de96811f2</testCaseGuid>
+</TestCaseEntity>

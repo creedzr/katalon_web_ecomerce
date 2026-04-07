@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensuring the user can remove item&#xd;
+in cart</description>
+   <name>CK_003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70b32938-b17d-48a6-a9fa-ee9d30234ab2</testCaseGuid>
+</TestCaseEntity>

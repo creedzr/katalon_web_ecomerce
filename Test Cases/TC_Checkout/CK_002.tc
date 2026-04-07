@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensuring the user can add more item</description>
+   <name>CK_002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2e1d119-4701-4f86-8296-68089310132d</testCaseGuid>
+</TestCaseEntity>
