@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing the Checkout processcan be &#xd;
+canceled.</description>
+   <name>CK_005</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76aeee8b-823c-4286-a0ff-5c5a175ec4f6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing the checkout process &#xd;
+without products</description>
+   <name>CK_006</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7d95b7c-aca2-4686-8890-f32cd9641a2b</testCaseGuid>
+</TestCaseEntity>

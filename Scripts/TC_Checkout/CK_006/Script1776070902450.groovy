@@ -17,22 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Login/LG_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Checkout/CK_003'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('cart/Page_Swag Labs/button_Add to cart', [('productName') : 'sauce-labs-backpack']))
+WebUI.click(findTestObject('cart/Page_Swag Labs/button_Checkout'))
 
-WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/cart'), '1')
+WebUI.setText(findTestObject('cart/Page_Swag Labs/input_Checkout Your Information_first-name'), 'creed')
 
-WebUI.click(findTestObject('cart/Page_Swag Labs/button_Add to cart', [('productName') : 'sauce-labs-bike-light']))
+WebUI.setText(findTestObject('cart/Page_Swag Labs/input_Checkout Your Information_last-name'), 'zeze')
 
-WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/cart'), '2')
+WebUI.setText(findTestObject('cart/Page_Swag Labs/input_Checkout Your Information_postal-code'), '123456')
 
-WebUI.click(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/cart'))
+WebUI.click(findTestObject('cart/Page_Swag Labs/input continue'))
 
-WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/name_product', [('productName') : 'Sauce Labs Backpack']), 'Sauce Labs Backpack')
+WebUI.click(findTestObject('cart/Page_Swag Labs/button_Finish'))
 
-WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/name_product', [('productName') : 'Sauce Labs Bike Light']), 
-    'Sauce Labs Bike Light')
+WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/h2_Thank you for your order'), 'Thank you for your order!')
 
-WebUI.verifyElementText(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/cart'), '2')
+WebUI.verifyElementVisible(findTestObject('cart/Page_Swag Labs/button_Back Home'))
 

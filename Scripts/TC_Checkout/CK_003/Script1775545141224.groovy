@@ -27,5 +27,3 @@ WebUI.click(findTestObject('cart/Page_Swag Labs/button_Remove', [('productName')
 
 WebUI.verifyElementNotPresent(findTestObject('cart/Page_Swag Labs/Page_Swag Labs/cart'), 10)
 
-WebUI.closeBrowser()
-
